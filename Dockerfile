@@ -1,6 +1,6 @@
 FROM tomcat:8.0-jre8-alpine
 
-# Copy kismi duzenlenecek teker teker gerekli uygulamalari ekleyecegiz
+# Copy part shoud be modified
 COPY managementserver/ServerSide/dist/managementserver.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080

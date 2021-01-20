@@ -7,6 +7,7 @@ This repository makes it easy to deploy code from local development environment 
 - You need to clone this repositort 
 - You should import your applications source codes to this repository
 - You need to modify Dockerfile to make use of your netbeans builds
+- You need to modify Docker-compose file
 - You need to modify ecs-params.yml file with necessary vpc subnet values and resource needs
 - All scripts on this repository should run on a bash like shell(git bash is preferred for windows environments)
 - Export necessary variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, region, aws_account_id, ecr_repo
