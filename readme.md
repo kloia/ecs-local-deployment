@@ -4,7 +4,7 @@ This repository makes it easy to deploy code from local development environment 
 
 ## How to use this repository
 
-- You need to clone this repositort 
+- You need to clone this repositorty
 - You should import your applications source codes to this repository
 - You need to modify Dockerfile to make use of your netbeans builds
 - You need to modify Docker-compose file
